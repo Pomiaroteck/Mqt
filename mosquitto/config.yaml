@@ -19,7 +19,9 @@ map:
   - ssl
   - share
 options:
-  logins: []
+  logins:
+    - username: zamel
+      password: zamel
   require_certificate: false
   certfile: fullchain.pem
   keyfile: privkey.pem
